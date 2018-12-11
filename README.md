@@ -3,7 +3,7 @@
 [![PyPI version](https://badge.fury.io/py/pycodedock.svg)](https://badge.fury.io/py/pycodedock)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Python Version](https://img.shields.io/badge/python-v3.6-green.svg)](https://docs.python.org/3.6/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Docker Version](https://img.shields.io/badge/docker-v18.09-blue.svg)](https://github.com/docker/docker-ce/tree/18.09)
 
 ---
-> pycodedock is module that allows you to safely execute untrusted python scripts within docker containers.  
+**_pycodedock is module that allows you to safely execute untrusted python scripts within docker containers._**  
 
 Underneath it makes use of the docker API.  
 Once the scripts have been loaded into the container, no connection whatsoever is maintained with the host machine. This prevents the script inside from interacting with the host system **even if it has administrator privileges** inside the container.
