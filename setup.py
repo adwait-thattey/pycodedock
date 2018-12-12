@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pycodedock",
-    version="0.0.1",
+    version="0.0.3",
     author="Adwait Thattey",
     author_email="adwaitthattey@gmail.com",
     description="A module that allows you to programatically run python scripts safely inside docker containers",

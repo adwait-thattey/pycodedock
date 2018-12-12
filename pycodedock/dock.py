@@ -143,7 +143,7 @@ class Docker:
         self.stop_container()
         self.delete_dir()
 
-    def run_code_and_return_status(self):
+    def run(self):
         # This method is meant to be called on an instance of this class
         # It does not delete the volume dir. It is the duty of caller to call delete_dir function again after this one
         try:
